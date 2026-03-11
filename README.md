@@ -147,23 +147,6 @@ Analyze login attempts and authentication logs
 Look for indicators of compromise (IOCs)
 
 
-Indicators of Compromise (IOCs)-
-
-
-Indicator	                                 Description
-
-
-
-Unknown network connection	               Possible reverse shel
-
-
-New user account	                           Persistence attempt
-
-
-Multiple SSH login failures	               Possible brute force attack
-
-
-Suspicious processes                         Possible attacker tools
 
 
 Project Results-
