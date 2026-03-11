@@ -1,6 +1,8 @@
 User Activity Monitoring using OSQuery
 
+
 Project Overview-
+
 
 This project demonstrates how to detect suspicious activity on a Linux endpoint using OSQuery.
 
