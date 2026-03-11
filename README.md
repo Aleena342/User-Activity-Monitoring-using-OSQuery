@@ -129,8 +129,12 @@ Importance of endpoint monitoring in cybersecurity
 Future Improvements
 
 Possible improvements for this project:
+
 Add automated alerts using SIEM tools
+
 Integrate Wazuh or Splunk for log monitoring
+
 Monitor file integrity changes
+
 Create automated OSQuery detection rules
 
