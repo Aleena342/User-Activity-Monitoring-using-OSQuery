@@ -39,14 +39,16 @@ Attacker Machine
       |
       |  Attack Traffic
       |
+
 Victim Machine
+
 
 (Ubuntu + OSQuery)
       |
       |  Endpoint Monitoring
       |
-Security Analyst
 
+Security Analyst
 (OSQuery Queries)
 
 Components-
