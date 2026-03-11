@@ -108,7 +108,7 @@ useradd hacker
 
 passwd hacker
 
-Detection Query
+Detection Query-
 
 SELECT * FROM users;
 
