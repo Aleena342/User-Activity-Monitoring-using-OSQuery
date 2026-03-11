@@ -190,9 +190,9 @@ Monitor file integrity changes
 Create automated OSQuery detection rules
 <img width="1919" height="948" alt="Screenshot 2026-03-04 152643" src="https://github.com/user-attachments/assets/f2b96319-6ec3-42ab-aebb-866bc0f6d1f2" />
 <img width="1919" height="942" alt="Screenshot 2026-03-04 172508" src="https://github.com/user-attachments/assets/7ade09a4-2d87-443b-b263-15f8511361e3" />
-
+<img width="1919" height="986" alt="Screenshot 2026-03-04 172438" src="https://github.com/user-attachments/assets/4d47bc88-bcb5-408f-af20-aeef21bbeda7" />
 <img width="1920" height="1080" alt="Screenshot 2026-03-04 174229" src="https://github.com/user-attachments/assets/bf97ee69-ca38-40f7-97a8-5286685f6db1" />
 
-<img width="1919" height="986" alt="Screenshot 2026-03-04 172438" src="https://github.com/user-attachments/assets/4d47bc88-bcb5-408f-af20-aeef21bbeda7" />
+
 
 
