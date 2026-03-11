@@ -1,4 +1,5 @@
 Endpoint-Suspicious-Activity-Investigation-using-OSQuery
+
 Project Overview
 This project demonstrates how to detect suspicious activity on a Linux endpoint using OSQuery.
 In this lab environment:
