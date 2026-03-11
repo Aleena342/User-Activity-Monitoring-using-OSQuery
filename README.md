@@ -1,14 +1,18 @@
-Endpoint-Suspicious-Activity-Investigation-using-OSQuery
+User Activity Monitoring using OSQuery
 
 Project Overview
 
 This project demonstrates how to detect suspicious activity on a Linux endpoint using OSQuery.
+
 In this lab environment:
 Kali Linux is used as the attacker machine
+
 Ubuntu Linux is used as the victim machine
+
 OSQuery is installed on the victim system to monitor system activity
 
 Different attack scenarios are simulated from the attacker machine. The victim system is monitored using OSQuery to detect suspicious activities such as reverse shell connections, unauthorized user creation, and SSH brute-force attacks.
+
 This project shows how SOC analysts investigate endpoint security incidents using OSQuery queries.
 
 Project Objectives
