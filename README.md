@@ -120,10 +120,15 @@ These detections show how OSQuery can help SOC analysts identify and investigate
 Learning Outcomes
 
 Through this project, I learned:
+
 How attackers gain access to Linux systems
+
 How reverse shells work
+
 How to detect suspicious activities using OSQuery
+
 How SOC analysts investigate endpoint security incidents
+
 Importance of endpoint monitoring in cybersecurity
 
 Future Improvements
