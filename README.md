@@ -12,6 +12,7 @@ Different attack scenarios are simulated from the attacker machine. The victim s
 This project shows how SOC analysts investigate endpoint security incidents using OSQuery queries.
 
 Project Objectives
+
 The main goals of this project are:
 Simulate cyber attacks in a controlled lab environment
 Monitor endpoint activities using OSQuery
@@ -21,6 +22,7 @@ Investigate Indicators of Compromise (IOCs)
 Improve practical SOC investigation skills
 
 Lab Architecture
+
 Attacker Machine
 (Kali Linux)
       |
@@ -33,7 +35,9 @@ Victim Machine
       |
 Security Analyst
 (OSQuery Queries)
+
 Components
+
 Attacker Machine
 Kali Linux system used to perform attacks.
 Victim Machine
@@ -42,12 +46,14 @@ Security Analyst
 Investigates suspicious activity using OSQuery queries.
 
 Tools Used
+
 OSQuery – Endpoint monitoring and investigation
 Kali Linux – Attack simulation
 Ubuntu Linux – Victim system
 Linux Logs – Security investigation
 
 Attacks Simulated
+
 1. Reverse Shell Attack-
 A reverse shell allows the attacker to control the victim system remotely.
 Example reverse shell command used by attacker:
@@ -86,6 +92,7 @@ SELECT * FROM last;
 Analysts can also review authentication logs to detect repeated login failures.
 
 Investigation Process
+
 Security analysts follow these steps during investigation:
 Monitor system processes using OSQuery
 Check network connections for suspicious activity
@@ -94,6 +101,7 @@ Analyze login attempts and authentication logs
 Look for indicators of compromise (IOCs)
 
 Indicators of Compromise (IOCs)
+
 Indicator	                                 Description
 Unknown network connection	               Possible reverse shel
 New user account	                           Persistence attempt
@@ -101,6 +109,7 @@ Multiple SSH login failures	               Possible brute force attack
 Suspicious processes                         Possible attacker tools
 
 Project Results
+
 Using OSQuery, the following suspicious activities were detected:
 Reverse shell process running on the system
 Unauthorized user account created by attacker
@@ -109,6 +118,7 @@ Suspicious command activity
 These detections show how OSQuery can help SOC analysts identify and investigate endpoint attacks.
 
 Learning Outcomes
+
 Through this project, I learned:
 How attackers gain access to Linux systems
 How reverse shells work
@@ -117,6 +127,7 @@ How SOC analysts investigate endpoint security incidents
 Importance of endpoint monitoring in cybersecurity
 
 Future Improvements
+
 Possible improvements for this project:
 Add automated alerts using SIEM tools
 Integrate Wazuh or Splunk for log monitoring
