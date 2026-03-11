@@ -1,6 +1,6 @@
 User Activity Monitoring using OSQuery
 
-Project Overview
+Project Overview-
 
 This project demonstrates how to detect suspicious activity on a Linux endpoint using OSQuery.
 
@@ -15,17 +15,23 @@ Different attack scenarios are simulated from the attacker machine. The victim s
 
 This project shows how SOC analysts investigate endpoint security incidents using OSQuery queries.
 
-Project Objectives
+Project Objectives-
 
 The main goals of this project are:
+
 Simulate cyber attacks in a controlled lab environment
+
 Monitor endpoint activities using OSQuery
+
 Detect suspicious processes and network connections
+
 Identify unauthorized changes on the system
+
 Investigate Indicators of Compromise (IOCs)
+
 Improve practical SOC investigation skills
 
-Lab Architecture
+Lab Architecture-
 
 Attacker Machine
 (Kali Linux)
